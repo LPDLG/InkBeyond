@@ -1,0 +1,219 @@
+{
+  "title": "InkBeyond: Track-Aware Video Outpainting with Joint Diffusion",
+  "examples": [
+    {
+      "dataset": "InkVideo-50",
+      "directory": "assets/inkvideo50",
+      "frames": 81,
+      "fps": 16,
+      "output_size": [
+        1024,
+        480
+      ],
+      "input_size": [
+        704,
+        480
+      ],
+      "observed_region_xyxy": [
+        160,
+        0,
+        864,
+        480
+      ],
+      "comparison_order": [
+        "Wan-VACE",
+        "MOTIA",
+        "Follow-Your-Canvas",
+        "M3DDM+",
+        "InkBeyond (Ours)",
+        "Ground truth"
+      ],
+      "duration_seconds": 5.0625,
+      "display_processing": "Uniform resizing, labels, boundary markers, and web encoding. No interpolation or content enhancement.",
+      "files": {
+        "comparison.gif": {
+          "bytes": 9879351,
+          "sha256": "70b0f4ede720b1f894010a6185a2c4e3087a520dc86c1ebb09fb2a62b4f6da7e"
+        },
+        "comparison.mp4": {
+          "bytes": 5714079,
+          "sha256": "75c28047d51c9f00208f3d8e01ee52dc436e02325ffe8281a3d40596a9e64309"
+        },
+        "input.mp4": {
+          "bytes": 2516929,
+          "sha256": "ceccd97b589c93ac4558826fa8a213a2a9df1294ba10c2fc94022de53a385c6b"
+        },
+        "ours.mp4": {
+          "bytes": 3444628,
+          "sha256": "fd05e4c4098d18b182c08603db3f7ba3f44c0c7edbe1fe0bb7d33a8723219718"
+        },
+        "poster.png": {
+          "bytes": 740081,
+          "sha256": "a98bf32bc50e8b8afb3c1ae5c3861ae7be73a05af01c08f960913dd2bd1f79fa"
+        },
+        "reference.mp4": {
+          "bytes": 3358239,
+          "sha256": "619754f35e95115a900e8ac5758a917172f0756c7bbf9b52e6418cf5b79a49de"
+        }
+      },
+      "gif_preview": {
+        "source_frames_one_based": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          51,
+          53,
+          55,
+          57,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69,
+          71,
+          73,
+          75,
+          77,
+          79,
+          81
+        ],
+        "duration_ms": 5060,
+        "dimensions": [
+          1024,
+          439
+        ],
+        "nominal_fps": 8
+      }
+    },
+    {
+      "dataset": "DAVIS",
+      "directory": "assets/davis",
+      "frames": 81,
+      "fps": 16,
+      "output_size": [
+        1024,
+        480
+      ],
+      "input_size": [
+        704,
+        480
+      ],
+      "observed_region_xyxy": [
+        160,
+        0,
+        864,
+        480
+      ],
+      "comparison_order": [
+        "Wan-VACE",
+        "MOTIA",
+        "Follow-Your-Canvas",
+        "M3DDM+",
+        "InkBeyond (Ours)",
+        "Ground truth"
+      ],
+      "duration_seconds": 5.0625,
+      "display_processing": "Uniform resizing, labels, boundary markers, and web encoding. No interpolation or content enhancement.",
+      "files": {
+        "comparison.gif": {
+          "bytes": 9082780,
+          "sha256": "184e902ba4ebab9c82bef7e39b4cca30fc5ee8033c60a2177248eb4cab448561"
+        },
+        "comparison.mp4": {
+          "bytes": 4802881,
+          "sha256": "3cd2b24be7ea6f987018f33d99890e77c9f42c29b099776a5a99fedb5dba4df2"
+        },
+        "input.mp4": {
+          "bytes": 1568494,
+          "sha256": "3f2925d02da2ad2dfa92c921788e9220b1e4960041e80cf0c6a22cb338e940b9"
+        },
+        "ours.mp4": {
+          "bytes": 2872927,
+          "sha256": "6db17761f64e2462745440916df682853511a668eb4e337ff8860dbf930050b5"
+        },
+        "poster.png": {
+          "bytes": 826862,
+          "sha256": "976a2af47358ae54fd71ea0dfe2b20edc575be7bb02a713f6a881d50b564bc6d"
+        },
+        "reference.mp4": {
+          "bytes": 2097700,
+          "sha256": "1fe29e501e68dfefe451dbb0ad3102f8dcd682c560076c0611a1241f5eaf619d"
+        }
+      },
+      "gif_preview": {
+        "source_frames_one_based": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47,
+          49,
+          51,
+          53,
+          55,
+          57,
+          59,
+          61,
+          63,
+          65,
+          67,
+          69,
+          71,
+          73,
+          75,
+          77,
+          79,
+          81
+        ],
+        "duration_ms": 5060,
+        "dimensions": [
+          1024,
+          439
+        ],
+        "nominal_fps": 8
+      }
+    }
+  ]
+}
